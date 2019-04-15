@@ -1,1 +1,1 @@
-# FantasyWriting
+# FictionWriting
