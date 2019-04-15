@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>♌ Writing Project</title>
+</head>
+
+<body>
+  <h3>Subscription / Email</h3>
+  <form class="" action="mailto:alexander.82peace@gmail.com" method="post" name="subscription" enctype="text/plain">
+    <label for="Title">Title:</label>
+    <select id="Tile" class="" name="Title" required autofocus>
+      <option></option>
+      <optgroup label="Title">
+        <option value="Mr.">Mr.</option>
+        <option value="Mrs.">Mrs.</option>
+        <option value="Miss">Miss</option>
+      </optgroup>
+      <optgroup label="Optional Titles">
+        <option value="Bruce Lee">Bruce Lee</option>
+        <option value="Lucifer">Lucifer</option>
+        <option value="Angel">Angel</option>
+        <option value="Sweety">Sweety</option>
+        <option value="ici-pici itsy-bitsy teeny-weeny">Ici-pici Itsy-bitsy Teeny-weeny</option>
+        <option value="Eeny Meeny Miney Mo">Eeny Meeny Miney Mo</option>
+        <option value="Hercules">Hercules</option>
+        <option value="Diablo">Diablo</option>
+        <option value="Count Dracula">Count Dracula</option>
+      </optgroup>
+    </select>
+    <br><br>
+    <label for="fname">First Name: </label>
+    <input placeholder="First Name" type="text" name="fname" value="" id="fname" autofocus autocomplete="yes" dirname="fname.dir" required maxlength="15" pattern="^[A-Z][a-zA-Z- ]{1,14}"
+      title="The first letter should be Capital. Please insert only alphabetical characters. Numbers and symbols are not accepted.The name must consist minimum of 2 letters"><br><br>
+    <label for="sname">Surname: </label>
+    <input placeholder="Family Name" type="text" name="sname" value="" id="sname" dirname="sname.dir" required maxlength="15" pattern="^[A-Z][a-zA-Z- ]{1,14}" autofocus
+      title="The first letter should be Capital. Please insert only alphabetical characters. Numbers and symbols are not accepted.The name must consist minimum of 2 letters"><br><br>
+    <label for="cname">Country of Origin: </label>
+    <input placeholder="USA,Hong Kong,Norway..." type="text" name="cname" value="" id="cname" dirname="cname.dir" required maxlength="50" pattern="^[A-Z][a-z- ]{1,49}" list="countrylist"
+      title="The first letter should be Capital. Please insert only alphabetical characters. Numbers and symbols are not accepted.The name must consist minimum of 2 letters">
+    <datalist id="countrylist">
+      <option value="Antartica">
+      <option value="Czech">
+      <option value="China">
+      <option value="Denmark">
+      <option value="Georgia">
+      <option value="Hong Kong">
+      <option value="Iceland">
+      <option value="Indonesia">
+        <option value="Japan">
+      <option value="New Zealand">
+      <option value="Norway">
+      <option value="Russia">
+      <option value="Singapore">
+      <option value="Slovakia">
+        <option value="South Korea">
+      <option value="Sweden">
+      <option value="Switzerland">
+      <option value="Taiwan">
+      <option value="United Kingdom">
+      <option value="US">
+    </datalist>
+
+    <br><br>
+    <label for="bdate">Date of Birth</label>
+    <input type="date" name="Date of Birth" id="bdate" min="1950-01-01" max="2019-03-29" required><br><br>
+    <!--input wraped in label. for and id is not required-->
+    <label>Your Email
+      <input type="email" name="email" value="" dirname="email.dir" required maxlength="50" multiple placeholder="YoursEmail@account.com(hotmail.com,gmail.com...etc)" size="50"><br>
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="News" checked>
+      Do yout want to receive updates and news of Writing project
+    </label>
+    <br>
+    <br>
+    <button type="submit" name="submit2" title="Submit Test" formtarget="_blank">
+<img src="picture/cherry-blossom.png" alt="Submit" height="76.8" width="76.8">
+      </button>
+      <br><br>
+
+    <button type="submit" name="submit" title="Submit" formtarget="_blank" formaction="Thank you.html">
+      <img src="picture/roman-ship.png" alt="Submit" height="76.8" width="76.8">
+    </button>
+    <div>Icons made by <a target="_blank" href="https://www.flaticon.com/authors/zlatko-najdenovski" title="Zlatko Najdenovski">Zlatko Najdenovski</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is
+      licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <br>
+    <a href="index.html">Return to Main Page</a>
+</body>
+
+</html>
