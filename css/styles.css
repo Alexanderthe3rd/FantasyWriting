@@ -1,0 +1,57 @@
+body {
+  /*1. #f4f0ff
+  2. #fffcf7
+  3. #e4dfce
+  4. rgb(234, 230, 215)
+  5. rgb(243, 237, 226)
+  6. rgb(254, 250, 239)
+  7. rgb(237, 234, 217)
+  8. rgb(239, 236, 220)
+  9. rgb(245, 243, 233)
+  */
+  background-color: rgb(248, 247, 239);
+  font-size: 105%;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  /*1. #E4C2F2
+  2.  #003366
+  3. rgb(139, 130, 157)*/
+  border-color: rgb(155, 148, 171);
+  width: 40%;
+  margin: 3em auto;
+}
+
+.img1 {
+  float: left;
+  margin-right: 25px;
+}
+
+.clearfix {
+  overflow: auto
+}
+/* better to use this code
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+need to learn more about it
+*/
+
+.container1 {
+  border: solid red 3px;
+}
+
+.center {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  /*1. #003366
+  2. rgb(53, 67, 104)
+  3.rgb(69, 87, 135)*/
+  color: rgb(62, 78, 121);
+}
